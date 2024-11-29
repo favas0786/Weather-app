@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Poppins' , sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  sans-serif;
     box-sizing: border-box;
 }
 
@@ -93,4 +93,17 @@ body {
 .humidity,.wind {
     font-size: 28px;
     margin-top: -6px;
+}
+
+.weather{
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+    color: #e5e5e5;
 }
